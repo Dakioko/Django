@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-environ = "*"
+django-crispy-forms = "*"
+crispy-bootstrap5 = "*"
+django-tables2 = "*"
+openpyxl = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
